@@ -1,13 +1,13 @@
-#Andrei Krautsou
+Andrei Krautsou
 ==========================================================
-##My contact info
+My contact info
 ==========================================================
 * __Address__: Volgogradskaya strit, Gomel, Belarus
 * __Phone__: +375 44 7675780
 * __E-mail__: andreikrautsougit@yandex.ru
 * __GitHub__:Krautsou-Andrei
 
-##Skills
+Skills
 ==========================================================
 * HTML5
 * CSS
@@ -18,7 +18,8 @@
 * Figma
 * VSCode
 
-##Code
+Code
+==========================================================
 ```
 function createPhoneNumber(numbers) {
   let format = "(xxx) xxx-xxxx";
@@ -31,16 +32,16 @@ function createPhoneNumber(numbers) {
 }
 ```
 
-##Education
+Education
 ==========================================================
 * __Belarusian State University of Railway Transport__
 
-##Experience
+Experience
 ==========================================================
 * electromechanic (2008-2013)
 * senior electromechanic (2013)
 
-##Languages
+Languages
 =========================================================
 * Russian
 * English (A2)
