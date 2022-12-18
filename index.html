@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Andrei Krautsou CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="#about">About me</a></li>
+          <li class="menu__item"><a class="menu__link" href="#skill">Skills</a></li>
+          <li class="menu__item"><a class="menu__link" href="#contact">Contacts</a></li>
+          <li class="menu__item"><a class="menu__link " href="#education">Educatio</a></li>
+          <li class="menu__item"><a class="menu__link" href="#language">Languages</a></li>
+          <li class="menu__item"><a class="menu__link" href="#code">Code</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container__menu container">
+      <section class="main__general-info general-info">
+        <div class="image__wrap">
+          <img class="general-info__image" src="./main.jpg" alt="Foto Andrei Krautsou">
+        </div>
+        <h1 class="general-info__heading heading--xxl">Andrei Krautsou</h1>
+        <address id="contact" class="general-info__contacts contact">
+          <h2 class="contact__heading heading--xl">Contacts</h2>
+          <ul class="contact__list">
+            <li class="contact__item "><a class="contact__link contact--phone" href="tel:+375447675780">+375 (44) 767-57-80</a></li>
+            <li class="contact__item"><a class="contact__link contact--email" href="mailto:andreikrautsougit@yandex.ru">AndreiKrautsouGit@yandex.ru</a></li>
+            <li class="contact__item"><a class="contact__link contact--git" href="https://github.com/Krautsou-Andrei">Krautsou-Andrei</a></li>
+          </ul>
+        </address>
+        <div id="skill" class="general-info__skills skill">
+          <h2 class="skill__heading heading--xl">Skills</h2>
+          <ul class="skill__list">
+            <li class="skill__item">HTML5</li>
+            <li class="skill__item">CSS</li>
+            <li class="skill__item">SCSS</li>
+            <li class="skill__item">Git</li>
+            <li class="skill__item">JavaScript basic</li>
+            <li class="skill__item">Java basic</li>
+            <li class="skill__item">Liquid basic</li>
+            <li class="skill__item">Figma</li>
+            <li class="skill__item">VSCode</li>
+          </ul>
+        </div>
+        <div id="language" class="general-info__languages language">
+          <h2 class="language__heafing heafing--xl">Languages</h2>
+          <ul class="language__list">
+            <li class="language__item">Russian (native)</li>
+            <li class="language__item">English (A2)</li>
+          </ul>
+        </div>
+      </section>
+      <section class="main__info info">
+        <div id="about" class="info__about about">
+          <h2 class="about__heading hrading--xl">About myself</h2>
+          <p class="about__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi libero explicabo quas, vel laboriosam nostrum, recusandae ullam, consectetur amet dolorum? Enim maiores asperiores ea optio ut dolore temporibus illum?
+          </p>
+        </div>
+        <div id="education" class="info__education education">
+          <h2 class="education__heading heading--xl">Education</h2>
+          <ul class="education__list">
+            <li class="education__item item">
+              <h3 class="item__heading heading--lg">Belarusian State University of Railway Transport</h3>
+              <p class="item__text">
+                electromechanical faculty (2013)
+              </p>
+            </li>
+          </ul>
+
+        </div>
+        <div id="code" class="info__code code">
+          <h2 class="code__heading heading--xl">Code example</h2>
+          <pre class="code__text">
+            function createPhoneNumber(numbers) {
+              let format = "(xxx) xxx-xxxx";
+            
+              for (let i = 0; i < numbers.length; i++) {
+                format = format.replace("x", numbers[i]);
+              }
+            
+              return format;
+            }
+          </pre>
+        </div>
+
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <ul class="footer__list">
+        <li class="footer__item"><a class="item__link" href=""></a></li>
+        <li class="footer__item"><a class="item__link" href=""></a></li>
+        <li class="footer__item"><a class="item__link" href=""></a></li>
+      </ul>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
