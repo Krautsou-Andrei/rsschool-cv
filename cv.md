@@ -41,3 +41,8 @@ Experience
 ==========================================================
 * electromechanic (2008-2013)
 * senior electromechanic (2013)
+
+Languages
+=========================================================
+* Russian
+* English (A2)
