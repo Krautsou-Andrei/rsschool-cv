@@ -18,3 +18,26 @@ Skills
 * Java basic
 * Figma
 * VSCode
+
+Code
+==========================================================
+```
+function createPhoneNumber(numbers) {
+  let format = "(xxx) xxx-xxxx";
+
+  for (let i = 0; i < numbers.length; i++) {
+    format = format.replace("x", numbers[i]);
+  }
+
+  return format;
+}
+```
+
+Education
+==========================================================
+* __Belarusian State University of Railway Transport__
+
+Experience
+==========================================================
+* electromechanic (2008-2013)
+* senior electromechanic (2013)
